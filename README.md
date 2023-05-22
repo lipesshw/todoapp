@@ -2,15 +2,15 @@
   <img src=".github/project.png" alt="demonstração do projeto" width="100%" />
 </p>
 
-# ToDoApp Ignite
+# 🖥️ ToDoApp Ignite
 
-Aplicação de Tarefas ToDo (Desafio Ignite Rocketseat) com algumas funcionalidades extras.
+Aplicação de Tarefas ToDo (Desafio Ignite Rocketseat) com algumas funcionalidades extras. (Não responsivo para mobile)
 
-## Descrição
+## 📙 Descrição
 
 Este projeto é uma aplicação de lista de tarefas (ToDo) desenvolvida como parte do desafio Ignite da Rocketseat. A aplicação permite que os usuários criem tarefas, as marquem como concluídas, editem o título das tarefas e as excluam. Além disso, foram adicionadas algumas funcionalidades extras, como a exibição de notificações e a categorização das tarefas.
 
-## Funcionalidades
+## 🏷️ Funcionalidades
 
 - Adicionar uma nova tarefa
 - Marcar uma tarefa como concluída
@@ -18,7 +18,7 @@ Este projeto é uma aplicação de lista de tarefas (ToDo) desenvolvida como par
 - Excluir uma tarefa
 - Categorizar tarefas concluídas e pendentes
 
-## Tecnologias Utilizadas
+## 🚀 Tecnologias Utilizadas
 
 - React
 - React Icons
@@ -26,11 +26,12 @@ Este projeto é uma aplicação de lista de tarefas (ToDo) desenvolvida como par
 - TypeScript
 - Vite
 
-## Instalação
+## 🖥️ Instalação
 
 1. Clone o repositório:
    ```
    git clone https://github.com/lipesshw/todoapp
+   cd todoapp/
    ```
 
 2. Instale as dependências:
