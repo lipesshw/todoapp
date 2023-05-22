@@ -87,3 +87,24 @@ p.textCompleted {
   font-size: 12px;
   border-radius: 4px;
 }
+
+
+
+
+
+
+@media (max-width: 768px) {
+  .inputEdit {
+    width: 100%;
+    margin-top: 0.5rem;
+  }
+
+  .checkContainer {
+    margin-right: auto;
+  }
+
+  .tagCompleta,
+  .tagPendente {
+    margin-top: 0.5rem;
+  }
+}

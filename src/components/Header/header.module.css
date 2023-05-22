@@ -49,3 +49,29 @@
   font-weight: 700;
   font-size: 0.875rem;
 }
+
+
+
+@media (max-width: 768px) {
+
+  .header {
+    height: 8rem;
+  }
+
+  .newTaskForm {
+    height: 2.5rem;
+    bottom: calc(-2.5rem / 2);
+  }
+
+  .newTaskForm input {
+    font-size: 0.875rem;
+  }
+  
+  .newTaskForm button {
+    font-size: 0.75rem;
+    padding: 0 0.5rem;
+  }
+
+  .newTaskForm button.hide-content span {
+    display: none;
+  }}
