@@ -31,6 +31,7 @@ Este projeto é uma aplicação de lista de tarefas (ToDo) desenvolvida como par
 1. Clone o repositório:
    ```
    git clone https://github.com/lipesshw/todoapp
+   cd todoapp/
    ```
 
 2. Instale as dependências:
