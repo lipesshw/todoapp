@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Header } from "./components/Header";
 import { Tasks } from "./components/Tasks";
-import { ToastContainer } from "react-toastify";
+import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
 const LOCAL_STORAGE_KEY = "todo:savedTasks";
@@ -14,6 +14,20 @@ export interface ITask {
 
 function App() {
   const [tasks, setTasks] = useState<ITask[]>([]);
+  useEffect(() => {
+    const handleWindowResize = () => {
+      if (window.innerWidth < 768 && !localStorage.getItem("desktopNotificationShown")) {
+        toast.info("Melhor experiência pelo desktop.");
+        localStorage.setItem("desktopNotificationShown", "true");
+      }
+    };
+
+    window.addEventListener("resize", handleWindowResize);
+
+    return () => {
+      window.removeEventListener("resize", handleWindowResize);
+    };
+  }, []);
 
   function loadSavedTasks() {
     const saved = localStorage.getItem(LOCAL_STORAGE_KEY);
@@ -75,6 +89,7 @@ function App() {
 
   return (
     <>
+      <ToastContainer position="top-right" />
       <Header onAddTask={addTask} />
       <Tasks
         tasks={tasks}
