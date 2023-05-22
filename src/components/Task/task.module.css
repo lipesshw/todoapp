@@ -1,0 +1,89 @@
+.task {
+  width: 100%;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-400);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem;
+}
+.inputEdit {
+  height: 100%;
+  flex: 1;
+  color: var(--gray-100);
+  background: var(--gray-500);
+  border: 1px solid #1e6f9f;
+  border-radius: 0.3rem;
+  padding: 0 1rem;
+  font-size: 1rem;
+  outline: none; 
+  box-shadow:none; 
+}
+
+.newTaskForm input::placeholder {
+  color: var(--gray-300);
+}
+
+.task p {
+  font-size: 0.875rem;
+  line-height: 1.18rem;
+  color: var(--gray-100);
+  margin-right: auto;
+}
+
+p.textCompleted {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
+
+.checkContainer {
+  width: 1.125rem;
+  height: 1.125rem;
+  background: none;
+  border: none;
+}
+
+.checkContainer div {
+  width: 100%;
+  height: 100%;
+  border-radius: 999px;
+  border: 2px solid var(--blue);
+}
+
+.checkContainer svg {
+  width: 100%;
+  height: 100%;
+  color: var(--purple);
+}
+
+.deleteButton {
+  background: none;
+  border: none;
+  color: var(--gray-300);
+}
+
+.editButton {
+  background: none;
+  border: none;
+  color: var(--gray-300);
+}
+
+.tagCompleta {
+  margin-left: 8px;
+  padding: 4px 8px;
+  background-color: #38a169;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+}
+
+.tagPendente {
+  margin-left: 8px;
+  padding: 4px 8px;
+  background-color: #f6ad55;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 4px;
+}

@@ -1,0 +1,34 @@
+.footer {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #4ea8de;
+}
+.footer p {
+  color: #808080;
+  vertical-align: middle;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
