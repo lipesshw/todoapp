@@ -4,7 +4,7 @@
 
 # 🖥️ ToDoApp Ignite
 
-Aplicação de Tarefas ToDo (Desafio Ignite Rocketseat) com algumas funcionalidades extras. (Não responsivo para mobile)
+Aplicação de Tarefas ToDo (Desafio Ignite Rocketseat) com algumas funcionalidades extras.
 
 ## 📙 Descrição
 
