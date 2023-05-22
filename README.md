@@ -1,5 +1,5 @@
 <p>
-  <img src=".src/assets/project.png" alt="demonstração do projeto" width="100%" />
+  <img src=".github/project.png" alt="demonstração do projeto" width="100%" />
 </p>
 
 # ToDoApp Ignite
